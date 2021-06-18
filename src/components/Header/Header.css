@@ -1,0 +1,28 @@
+.header img{
+    height: 50px;
+    width: 200px;
+    background-color: gray;
+}
+.header img:hover{
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+.header {
+    margin-bottom: 150px;
+}
+.header nav{
+    background-color: black;
+    line-height: 40px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgb(204, 34, 34);
+    transition: 0.4s;
+}
